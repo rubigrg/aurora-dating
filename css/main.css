@@ -40,6 +40,11 @@ h5 {
     font-size: 40px;
 }
 
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
 /** Menu Bar **/
 #menubar {
     overflow: hidden;
@@ -56,9 +61,7 @@ h5 {
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
-    background-color: white;
-    color: blue;
-    border-radius: 10px;
+    color: white;
     margin-right: 1%;
 }
 
@@ -71,9 +74,8 @@ h5 {
 #menubar a.active {
     background-color: white;
     color: blue;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
 }
+
 
 .content {
     padding: 40px 0;
@@ -345,14 +347,19 @@ img {
 }
 
 /** Contact Form **/
+section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .form-container {
   width: 90%;
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-  box-shadow: 0px 0px 20px #00000010;
-  background-color: white;
   border-radius: 8px;
   margin-bottom: 20px;
 }
@@ -381,14 +388,16 @@ button[type="submit"] {
   font-size: 24px;
   border-radius: 8px;
   font-family: "Montserrat";
-  color: rgb(27, 166, 247);
+  background-color: black;
+  color: white;
   text-align: center;
   cursor: pointer;
   margin-top: 10px;
   transition: 0.3s ease background-color;
 }
 button[type="submit"]:hover {
-  background-color: rgb(214, 226, 236);
+  background-color: grey;
+  color: white;
 }
 #status {
   width: 90%;
@@ -421,4 +430,3 @@ button[type="submit"]:hover {
     pointer-events: none;
   }
 }
-

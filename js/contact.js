@@ -9,13 +9,13 @@ window.addEventListener("DOMContentLoaded", function () {
 
   function success() {
     form.reset();
-    status.classList.add("success");
+    status.classList.add('success');
     status.innerHTML = "Thank you for you message. We will be in touch soon as possible!";
   }
 
   function error() {
-    status.classList.add("error");
-    status.innerHTML = "Oops! There was a problem. Please try again.";
+    status.classList.add('error');
+    status.innerHTML = "Oops! There was a problem with your form. Please try again.";
   }
 
   // handle the form submission event
@@ -43,4 +43,3 @@ function ajax(method, url, data, success, error) {
   };
   xhr.send(data);
 }
-

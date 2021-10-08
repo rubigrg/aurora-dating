@@ -3,116 +3,87 @@
 <html>
 
 <head>
-    <title>Aurora - Dating</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+    <script type="javascript" src="js/"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <script type="javascript" src="js/menu.js"></script>
-    <script type="javascript" src="js/gallery.js"></script>
 </head>
 
 <body>
 
-  <div class="logo">
-    <a href="index.html">Aurora-Dating</a>
+<!-- Navigation Bar -->
+<div class="nav">
+    <a href="" class="logo">Aurora-Dating</a>
+    <input class="btn" type="checkbox" id="btn" />
+    <label class="menu-icon" for="btn"><span class="icon"></span></label>
+    <ul class="menu-bar">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="#">Legal</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+<!-- Navigation Bar End -->
+<br><br>
+
+<!-- Section -->
+
+<!-- Download the app -->
+<div class="content">    
+<div class="download">
+  <table>
+    <h1>Download and Sign Up Now</h1>
+    <br><br>
+    <tr>
+        <td class="left-td">
+            <h2>Android</h2>
+            <br><br>
+            <p class="title">For Android users please download our Aurora Dating App now!</p>
+            <br>
+            <a href="" class="android">Google Play</a>
+              <br><br><br>
+        </td>
+        <td class="right-td">
+            <h2>IOS</h2>
+            <br><br>
+            <p class="title">For iOS users please download our Aurora Dating App now!</p>
+            <br>
+            <a href="" class="ios">Apple Store</a>
+              <br><br><br>
+        </td>
+    </tr>
+</table><!-- Download the app end -->
+
+<!-- Gallery section -->
+
+<div class="gallery">
+
+  <h3>Gallery</h3>
+
 </div>
 
-<!--Menu Bar-->
-<div id="menubar">
-    <a href="index.html" class="active">Home</a> 
-    <a href="aboutus.html" >About Us</a>
-    <a href="legal.html" >Legal</a> 
-    <a href="contactus.html" >Contact Us</a>
+<!-- Gallery section End-->
+
 </div>
-<!--Menu Bar End-->
 
+</div>
 
-<!--Home Content-->
-<div class="content">
-    <h1>Download & Sign Up Now</h1>
-    <br><br>
-    <table>
-        <tr>
-            <td class="left-td">
-                <h2>Android</h2>
-                <button class="apple">
-                    <a href="" id="name"> Download it on <br><i class="fab fa-apple" style="font-size:18px;color:white"></i> Apple Store</a>
-                  </button>
+<div class="footer">
+  <h4>[LOGO HERE] Aurora</h4>
+  <div class="social-media">
+    <h4>[Social media links here] </h4>
+    <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+  </div>
+  <br><br>
+  <div class="ql">  
+    <a href="">About Us</a> | <a href="">Terms & Conditions</a> | <a href="">Policies</a> | <a href="">Contact</a> 
+  </div>
+</div>
 
-                  <br><br>
-                  <div class="rate-us">
-                    <a href="">Rate Us</a>
-                  </div>
-                  <br><br><br>
-            </td>
-            <td class="right-td">
-                <h2>IOS</h2>
-                <button class="google">
-                    <a href="" id="name">Download it on <br><i class='fab fa-google-play' style='font-size:18px'></i> Google Play</a>
-                  </button>
-
-                  <br><br>
-                  <div class="rate-us">
-                    <a href="">Rate Us</a>
-                  </div>
-                  <br><br><br>
-            </td>
-        </tr>
-    </table>
-
-    <br><br>
-
-    <!-- Gallery -->
-
-    <h3> Gallery</h3>
-    
-    <div class="gallery">
-
-        <div class="slideshow fade">
-          <div class="number">1 / 5</div>
-          <img src="imgs/placeholder.png" style="width:100%">
-        </div>
-        
-        <div class="slideshow fade">
-          <div class="number">2 / 5</div>
-          <img src="imgs/placeholder1.jpg" style="width:100%">
-        </div>
-        
-        <div class="slideshow fade">
-          <div class="number">3 / 5</div>
-          <img src="imgs/SM-placeholder-1024x512.png" style="width:100%">
-        </div>
-        
-        <div class="slideshow fade">
-          <div class="number">4 / 5</div>
-          <img src="imgs/placeholder.png" style="width:100%">
-        </div>
-        
-        <div class="slideshow fade">
-          <div class="number">5 / 5</div>
-          <img src="imgs/placeholder1.jpg" style="width:100%">
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span> 
-          <span class="dot" onclick="currentSlide(5)"></span>
-        </div>
-
-    <!-- Gallery End-->
-
-      </div> 
-
-<!--Home Content End-->
 </body>
+
 
 </html>

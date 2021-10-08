@@ -1,12 +1,6 @@
-window.onscroll = function() {myFunction()};
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-var navbar = document.getElementById("menubar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    menubar.classList.add("sticky")
-  } else {
-    menubar.classList.remove("sticky");
-  }
-}
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
